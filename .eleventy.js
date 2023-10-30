@@ -1,5 +1,5 @@
 module.exports = function(eleventyConfig) {
-    eleventyConfig.addLayoutAlias('post', 'layouts/post.njk');
+    eleventyConfig.addLayoutAlias('post', '_layouts/post.njk');
     return {
         dir: {
             includes: "_includes",
